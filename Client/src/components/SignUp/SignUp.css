@@ -1,0 +1,74 @@
+.signup{
+  width:clamp(320px,60%,450px);
+  background-color: rgb(40, 40, 40);
+  margin:70px auto;
+  padding:10px;
+  border-radius: 10px;
+  border: 1.6px solid whitesmoke;
+  opacity: 85%;
+}
+.usertype{
+  display:flex;
+  margin: auto;
+}
+.user{
+  display: flex;
+  align-items: center;
+  margin:5px 20px;
+  width:28%;
+}
+input{
+  width:70%;
+  padding:10px 8px;
+  border-radius: 12px;
+  border:none;
+  font-size: 17px;
+}
+.inputlabel{
+  text-align: left;
+  margin:10px 50px;
+}
+input[type=radio]{
+  accent-color:rgb(39, 230, 5);
+    border: 0px;
+    width:20%;
+    height: 1.2em;
+}
+label{
+  color:whitesmoke;
+  font-size: 18px;
+  display: block;
+}
+button{
+  border:none;
+  padding:10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  color:white;
+  background-color: rgb(43, 177, 255);
+  margin:15px;
+}
+button:hover{
+  background-color: rgb(7, 109, 168);
+}
+button:active{
+  background-color: rgb(7, 70, 107);
+}
+.userlabel{
+  color:whitesmoke;
+  font-size: 20px;
+}
+.signuptitle{
+  font-size: 36px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(left,rgb(235, 255, 11),rgb(255, 136, 24));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:20px 0px;
+}
+#loading{
+  width: 20px;
+  height: 20px;
+  margin: 0px 30px;
+}
